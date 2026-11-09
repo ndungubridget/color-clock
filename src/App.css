@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clock-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2,
+    #f093fb
+  );
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.clock-card {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 50px 40px;
+  border-radius: 25px;
+  text-align: center;
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #39346b;
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.clock {
+  color: #764ba2;
+  font-size: clamp(38px, 9vw, 65px);
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.date {
+  color: #555;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: #eee8ff;
+  color: #764ba2;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.status-dot {
+  width: 9px;
+  height: 9px;
+  background: #28b463;
+  border-radius: 50%;
+}
+
+footer {
+  color: white;
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .clock-card {
+    padding: 35px 18px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+}
