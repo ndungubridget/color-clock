@@ -1,10 +1,23 @@
 # Color Clock
 
-## Project Description
+A dynamic digital clock built with React and Vite. It displays the current time and date in a clean, colorful, and responsive interface.
 
-Color Clock is a dynamic digital clock application built using React and Vite.
+## Live Demo
 
-The application displays the current date and time in a readable format. It automatically updates every second.
+[View Color Clock](https://ndungubridget.github.io/color-clock/)
+
+## GitHub Repository
+
+[View Source Code](https://github.com/ndungubridget/color-clock)
+
+## Features
+
+- Displays the current time in hours, minutes, and seconds.
+- Displays the current date.
+- Automatically updates every second.
+- Uses date-fns for date and time formatting.
+- Responsive design for different screen sizes.
+- Colorful user interface.
 
 ## Technologies Used
 
@@ -16,33 +29,43 @@ The application displays the current date and time in a readable format. It auto
 - npm
 - date-fns
 
-## Features
-
-- Displays the current time.
-- Displays the current date.
-- Automatically updates every second.
-- Uses date-fns for date formatting.
-- Colorful and responsive design.
-
-## Installation
+## Installation and Setup
 
 1. Clone the repository:
 
-   git clone YOUR_GITHUB_REPOSITORY_LINK
+   ```bash
+   git clone https://github.com/ndungubridget/color-clock.git
+   ```
 
-2. Navigate into the project:
+2. Enter the project folder:
 
+   ```bash
    cd color-clock
+   ```
 
 3. Install dependencies:
 
+   ```bash
    npm install
+   ```
 
 4. Start the development server:
 
+   ```bash
    npm run dev
+   ```
 
 5. Open the local URL displayed in your terminal.
+
+## Deployment
+
+The project is deployed using GitHub Pages.
+
+To publish updates:
+
+```bash
+npm run deploy
+```
 
 ## Author
 
